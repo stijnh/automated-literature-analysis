@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="writer-html5" lang="en" >
+<html class="writer-html5" lang="english" >
 <head>
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
@@ -163,7 +163,7 @@
 <dd><p>Submit the given query to the Scopus API.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>limit</strong> – Restrict results the first <cite>limit</cite> documents.</p>
+<dd class="field-odd"><p><strong>limit</strong> -- Restrict results the first <cite>limit</cite> documents.</p>
 </dd>
 </dl>
 </dd></dl>
@@ -181,7 +181,7 @@ and can lead to false positives (i.e., another document is found having
 the same title), thus it can be disabled if necessary.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>search_title</strong> – Flag to toggle searching by title.</p>
+<dd class="field-odd"><p><strong>search_title</strong> -- Flag to toggle searching by title.</p>
 </dd>
 </dl>
 </dd></dl>
@@ -248,7 +248,7 @@ set. Returns a tuple of two sets: the documents retrieved from CrossRef
 and the remaining documents (i.e., without DOI or not found).</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>timeout</strong> – Timeout in seconds between each request to throttle
+<dd class="field-odd"><p><strong>timeout</strong> -- Timeout in seconds between each request to throttle
 server communication.</p>
 </dd>
 </dl>
@@ -261,11 +261,11 @@ server communication.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>query</strong> – The search query.</p></li>
-<li><p><strong>limit</strong> – Maximum number of results to retrieve. <code class="docutils literal notranslate"><span class="pre">None</span></code> is unlimited.</p></li>
-<li><p><strong>timeout</strong> – Timeout in seconds between each request to throttle
+<li><p><strong>query</strong> -- The search query.</p></li>
+<li><p><strong>limit</strong> -- Maximum number of results to retrieve. <code class="docutils literal notranslate"><span class="pre">None</span></code> is unlimited.</p></li>
+<li><p><strong>timeout</strong> -- Timeout in seconds between each request to throttle
 server communication</p></li>
-<li><p><strong>options</strong> – Additional parameters that are passed to the <code class="docutils literal notranslate"><span class="pre">/works</span></code>
+<li><p><strong>options</strong> -- Additional parameters that are passed to the <code class="docutils literal notranslate"><span class="pre">/works</span></code>
 endpoint of CrossRef (see <cite>CrossRef API</cite>
 &lt;<a class="reference external" href="https://api.crossref.org">https://api.crossref.org</a>&gt;`_). Options are <cite>sort</cite> and
 <cite>filter</cite>.</p></li>
@@ -302,7 +302,7 @@ endpoint of CrossRef (see <cite>CrossRef API</cite>
 as a <cite>DocumentSet</cite>.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>limit</strong> – The maximum number of documents to retrieve.</p>
+<dd class="field-odd"><p><strong>limit</strong> -- The maximum number of documents to retrieve.</p>
 </dd>
 </dl>
 </dd></dl>
@@ -339,11 +339,11 @@ title, authors, doi, journal_ref, publication_date, abstract, language, and cate
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>query</strong> – The query as described in the <a class="reference external" href="https://info.arxiv.org/help/api/user-manual.html#query_details">arXiv API use manual</a>.</p></li>
-<li><p><strong>max_results</strong> – The maximum number of results to return.</p></li>
-<li><p><strong>start</strong> – Skip the first <code class="docutils literal notranslate"><span class="pre">start</span></code> documents from the results.</p></li>
-<li><p><strong>batch_size</strong> – The number documents to fetch per request.</p></li>
-<li><p><strong>sleep_time</strong> – The time to wait in seconds between each HTTP requests.</p></li>
+<li><p><strong>query</strong> -- The query as described in the <a class="reference external" href="https://info.arxiv.org/help/api/user-manual.html#query_details">arXiv API use manual</a>.</p></li>
+<li><p><strong>max_results</strong> -- The maximum number of results to return.</p></li>
+<li><p><strong>start</strong> -- Skip the first <code class="docutils literal notranslate"><span class="pre">start</span></code> documents from the results.</p></li>
+<li><p><strong>batch_size</strong> -- The number documents to fetch per request.</p></li>
+<li><p><strong>sleep_time</strong> -- The time to wait in seconds between each HTTP requests.</p></li>
 </ul>
 </dd>
 </dl>
