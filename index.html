@@ -1,22 +1,22 @@
+
+
 <!DOCTYPE html>
-<html class="writer-html5" lang="english" >
+<html class="writer-html5" lang="english">
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The LitStudy documentation &mdash; litstudy 0.1 documentation</title>
-      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-      <link rel="stylesheet" href="_static/css/style.css" type="text/css" />
-  <!--[if lt IE 9]>
-    <script src="_static/js/html5shiv.min.js"></script>
-  <![endif]-->
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/style.css?v=60f0dd44" />
+
   
-        <script src="_static/jquery.js?v=5d32c60e"></script>
-        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=a34077ea"></script>
-        <script src="_static/doctools.js?v=888ff710"></script>
-        <script src="_static/sphinx_highlight.js?v=4825356b"></script>
-        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=a34077ea"></script>
+      <script src="_static/doctools.js?v=888ff710"></script>
+      <script src="_static/sphinx_highlight.js?v=4825356b"></script>
+      <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -83,7 +83,7 @@
 <section id="litstudy">
 <h1>LitStudy<a class="headerlink" href="#litstudy" title="Permalink to this heading"></a></h1>
 <a class="reference external image-reference" href="https://raw.githubusercontent.com/nlesc/litstudy/master/docs/logo.png#gh-light-mode-only"><img alt="Logo" src="https://raw.githubusercontent.com/nlesc/litstudy/master/docs/logo.png#gh-light-mode-only" /></a>
-<a class="reference external image-reference" href="https://github.com/NLeSC/litstudy/"><img alt="github" src="https://img.shields.io/badge/github-repo-000.svg?logo=github&amp;amp;labelColor=gray&amp;amp;color=blue" /></a>
+<a class="reference external image-reference" href="https://github.com/NLeSC/litstudy/"><img alt="github" src="https://img.shields.io/badge/github-repo-000.svg?logo=github&amp;labelColor=gray&amp;color=blue" /></a>
 <a class="reference external image-reference" href="https://zenodo.org/badge/latestdoi/206312286"><img alt="DOI" src="https://zenodo.org/badge/206312286.svg" /></a>
 <a class="reference external image-reference" href="https://github.com/NLeSC/litstudy/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/nlesc/litstudy" /></a>
 <a class="reference external image-reference" href="https://pypi.org/project/litstudy/"><img alt="Version" src="https://img.shields.io/pypi/v/litstudy" /></a>
@@ -106,112 +106,18 @@ create a <a class="reference external" href="https://github.com/NLeSC/litstudy/i
 <section id="supported-source">
 <h2>Supported Source<a class="headerlink" href="#supported-source" title="Permalink to this heading"></a></h2>
 <p>LitStudy supports the following data sources. The table below lists which metadata is fully (✓) or partially (*) provided by each source.</p>
-<table class="docutils align-default">
-<thead>
-<tr class="row-odd"><th class="head"><p>Name</p></th>
-<th class="head"><p>Title</p></th>
-<th class="head"><p>Authors</p></th>
-<th class="head"><p>Venue</p></th>
-<th class="head"><p>Abstract</p></th>
-<th class="head"><p>Citations</p></th>
-<th class="head"><p>References</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p><a class="reference external" href="http://scopus.com/">Scopus</a></p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference external" href="https://www.semanticscholar.org/">SemanticScholar</a></p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td><ul class="simple">
-<li><p><span class="raw-html-md"><sup>(count only)</sup></span></p></li>
-</ul>
-</td>
-<td><p>✓</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference external" href="https://www.crossref.org/">CrossRef</a></p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td><ul class="simple">
-<li><p><span class="raw-html-md"><sup>(count only)</sup></span></p></li>
-</ul>
-</td>
-<td><p>✓</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference external" href="https://dblp.org/">DBLP</a></p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference external" href="https://arxiv.org/">arXiv</a></p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td></td>
-<td><p>✓</p></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference external" href="https://ieeexplore.ieee.org/">IEEE Xplore</a></p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td><ul class="simple">
-<li><p><span class="raw-html-md"><sup>(count only)</sup></span></p></li>
-</ul>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference external" href="https://link.springer.com/">Springer Link</a></p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td><ul class="simple">
-<li><p><span class="raw-html-md"><sup>(count only)</sup></span></p></li>
-</ul>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>CSV file</p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p>bibtex file</p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>RIS file</p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td><p>✓</p></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<div class="line-block">
+<div class="line"><a class="reference external" href="http://scopus.com/">Scopus</a>          | ✓     | ✓       | ✓     | ✓        | ✓              | ✓</div>
+<div class="line"><a class="reference external" href="https://www.semanticscholar.org/">SemanticScholar</a> | ✓     | ✓       | ✓     | ✓        | * <span class="raw-html-md"><sup>(count only)</sup></span> | ✓</div>
+<div class="line"><a class="reference external" href="https://www.crossref.org/">CrossRef</a>        | ✓     | ✓       | ✓     | ✓        | * <span class="raw-html-md"><sup>(count only)</sup></span> | ✓</div>
+<div class="line"><a class="reference external" href="https://dblp.org/">DBLP</a>            | ✓     | ✓       | ✓     |          |                |</div>
+<div class="line"><a class="reference external" href="https://arxiv.org/">arXiv</a>           | ✓     | ✓       |       | ✓        |                |</div>
+<div class="line"><a class="reference external" href="https://ieeexplore.ieee.org/">IEEE Xplore</a>     | ✓     | ✓       | ✓     | ✓        | * <span class="raw-html-md"><sup>(count only)</sup></span> |</div>
+<div class="line"><a class="reference external" href="https://link.springer.com/">Springer Link</a>   | ✓     | ✓       | ✓     | ✓        | * <span class="raw-html-md"><sup>(count only)</sup></span> |</div>
+<div class="line">CSV file        | ✓     | ✓       | ✓     | ✓        |                |</div>
+<div class="line">bibtex file     | ✓     | ✓       | ✓     | ✓        |                |</div>
+<div class="line">RIS file        | ✓     | ✓       | ✓     | ✓        |                |</div>
+</div>
 </section>
 <section id="example">
 <h2>Example<a class="headerlink" href="#example" title="Permalink to this heading"></a></h2>
